@@ -1,0 +1,466 @@
+/*
+***********  
+   HEADER
+***********
+*/
+
+header {
+    margin-bottom:8%;
+}
+
+
+/*
+***********  
+   BODY
+***********
+*/
+
+body {
+    background-color: #FF5851;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*
+***********  
+   NAVBAR
+***********
+*/
+nav {
+    background-color: #ff5851;
+    font-family: 'Montserrat';
+    font-size: larger;
+}
+
+.inline {
+    display:inline;
+}
+
+.offcanvas-end {
+    background-color: #1C1B20;
+}
+
+.offcanvas-title {
+color: #FF5851;
+font-weight: 600;
+}
+
+.nav-link {
+color: #ff5851;
+}
+
+.btn-close {
+   background-color:  #f8f8f8;
+}
+
+
+/*
+***********  
+   MAIN
+***********
+*/
+
+/*
+*****************
+ SECCIÓN "HOLA" 
+*****************
+*/
+
+h1 {
+    width: 141px;
+    height: 158px;
+    top: 95px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 78px;
+    letter-spacing: 0.1em;
+    color: #1C1B20;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.col {
+    height: 300px;
+}
+
+
+.col-uno {
+    background-color: #ff5851;
+    width: 50%;
+}
+
+div.col-uno {
+    display: grid;
+    align-content: center;
+    justify-content: flex-end;
+  
+}
+
+
+.col-dos {
+    background-color: #f8f8f8;
+    width: 50%;  
+}
+
+div.col-dos {
+    display: grid;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+
+/*
+***************
+   GENERAL SECCIONES
+***************
+*/
+
+section {
+    padding: 5%;
+}
+
+.títulos_secciones {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: 0.1em;
+color: #1C1B20;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding-top: 3.5%;
+}
+
+.separador_zigzag {
+    width: 88px;
+    height: 43px;
+}
+
+/*
+************************* 
+ SECCIÓN "PRESENTACIÓN" 
+*************************
+*/
+
+.mi_presentación {
+    padding-bottom: 7%;
+    background-color: #FF5851;
+}
+
+.mi_nombre {
+font-family: 'Montserrat';
+font-weight: 900;
+font-size: 34px;
+line-height: 60px;
+letter-spacing: 0.12em;
+color: #1C1B20;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding-top:4%;
+}
+
+.mi_título {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 23px;
+letter-spacing: 0.08em;
+color: #1C1B20;
+margin-top: -5%;
+}
+
+#circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: #F8F8F8;
+    margin-top: 2%;
+}
+
+@media (min-width:992px) {
+    #circle {
+    width: 200px;
+    height: 200px;
+    margin-bottom:1%;
+    }
+}
+
+@media (min-width:768px) {
+    #circle {
+    width: 175px;
+    height: 175px;
+    margin-bottom:2%;
+    }
+}
+
+.white_point {
+    color: #F8F8F8;
+    letter-spacing: 1.5px;
+}
+
+.orange_point {
+    color: #FF5851;
+}
+
+/*
+*************************
+   SECCIÓN "PROYECTOS"
+*************************
+*/
+
+#section_proyectos {
+    background-color: #F8F8F8;
+}
+
+.contenedor_img_portfolio {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:30px;
+    place-items: center;
+    margin-top: 4%;
+}
+
+.img_portfolio {
+    width: 190px; 
+    height: 160px;
+}
+
+.img_portfolio:hover {
+    width:215px;
+    height: 185px;
+    transition: 1.25s;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+@media (min-width:768px) {
+    .contenedor_img_portfolio {
+    grid-template-columns: repeat(2,1fr);
+         }
+}
+
+@media (min-width:992px) {
+   .contenedor_img_portofolio {
+    grid-template-columns: repeat(3,1fr);
+         }
+}
+
+/*
+***************************  
+   SECCIÓN "ACERCA DE MÍ"
+***************************
+*/
+
+#section_acerca-de-mí {
+display: grid;
+justify-content: flex-end;
+text-align: right;
+}
+
+
+@media (min-width:768px) {
+    .mi_foto {
+    height: 220px;
+    width: 220px;}
+}
+
+@media (min-width:992px) {
+    .mi_foto {
+    height: 250px;
+    width: 250px;}
+    }
+
+p {
+    width: 291px;
+    height: 287px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    padding-bottom: both;
+    text-indent: cap;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    color: #F8F8F8;
+}
+
+@media (min-width:768px) {
+    p {
+    display: flex;
+    width: 622px;
+    height: 292px;
+    font-size: 22px;
+    flex-direction: column;
+    margin-bottom:-20%; 
+    margin-top: -2%;   
+    }
+}
+
+@media (min-width:992px) {
+    p {
+    font-size: 25px;
+    margin-top:-10%;    
+    }
+}
+
+.párrafo {
+    display:flex;
+    justify-content: center;
+    margin-top: 4.5%;
+    margin-bottom: 2%;
+}
+
+.íconos_competencias {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    place-items: center;
+   
+}
+
+@media (min-width:768px) {
+    .íconos_competencias {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width:992px) {
+    .íconos_competencias {
+        grid-template-columns: repeat(6,1fr);
+        margin-top:-2%;
+    }
+}
+
+@media (min-width:992px) {
+    .intro_competencias {
+        width: 200px;
+        height: 200px;
+        margin-top: -15%;
+    }
+}
+
+.mí_CV {
+    color: #1C1B20;
+    text-align: right;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.ícono_CV {
+    text-align: right;
+}
+
+
+/*
+*************************
+   SECCIÓN "CONTACTAME"
+*************************
+*/
+
+#section_contactame {
+    background-color: #F8F8F8;
+    padding: 7%;
+}
+
+.contenedor_contactame {
+    display: grid;
+    justify-content: flex-end;
+    padding-bottom: 5%;
+}
+
+@media (min-width:768px) {
+    .img_contactame {
+        width: 206px;
+        height: 200px;
+        margin-top: -18%;
+    }
+}
+
+@media (min-width:992px) {
+    .img_contactame {
+        width: 306px;
+        height: 300px;
+        margin-top: -18%;
+    }
+}
+
+/*
+**************************** 
+   FORMULARIO DE CONTACTO
+****************************
+*/
+
+.form-control {
+    font-size: large;
+    font-family:'Montserrat';
+
+}
+
+.form-label {
+    font-size:large; 
+    font-family:'Montserrat';
+}
+
+.btn-md {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #FF5851;
+    }
+
+/*
+***********  
+   FOOTER
+***********
+*/
+
+footer {
+    padding: 2%;
+    
+}
+
+svg {
+    fill:#F8F8F8;
+    width: 30px;
+    height: 30px;
+}
+
+.logo_grande {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5%;
+    padding-top: 2%;
+}
+
+.mi_nombre_logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%; 
+    font-size: 22px;
+    font-weight: 600;
+    color:#1C1B20;
+
+}
+
+.íconos_footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+
+.buenos_aires {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    letter-spacing: 1.5px; 
+    color:#1C1B20;
+}
+
+.cierre_final {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    color:#1C1B20;
+}
